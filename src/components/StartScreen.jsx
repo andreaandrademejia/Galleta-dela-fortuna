@@ -1,0 +1,4 @@
+
+const StartScreen = ({ OnStart, images}) => {
+    
+}
