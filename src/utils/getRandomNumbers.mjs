@@ -1,4 +1,4 @@
-const getRandomNumbers = (limit) => {
+export const getRandomNumbers = (limit) => {
 	Math.floor(Math.random() * limit);
 };
 

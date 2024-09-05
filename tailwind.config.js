@@ -1,8 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-	theme: {
-		extend: {},
-	},
-	plugins: [],
-};
+// tailwind.config.mjs
+import { defineConfig } from 'vite';
+import tailwindcss from 'tailwindcss';
+
+export default defineConfig({
+	plugins: [tailwindcss()],
+});
